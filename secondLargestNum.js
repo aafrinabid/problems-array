@@ -22,9 +22,10 @@ sum=mainSum
          }
      
      }
+     console.log(sum-max,arr)
     return sum-max
 }
 
-const arr=[14,8,2,11,15,12,3]
+const arr=[14,15,2,11,16,12,3]
 
 findTheSeconlargest(arr)
